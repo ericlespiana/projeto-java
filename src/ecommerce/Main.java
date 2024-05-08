@@ -24,7 +24,7 @@ public class Main
 			
 			System.out.println("\t 1 - Listar todos os Produtos");
 			System.out.println("\t 2 - Buscar Produto por ID");
-			System.out.println("\t 3 - Atualizar Dados da Conta");
+			System.out.println("\t 3 - Atualizar Dados do Conta");
 			System.out.println("\t 4 - Cadastrar novo Produto");
 			System.out.println("\t 5 - Deletar Produto");
 			System.out.println("\t 6 - Sair");
@@ -48,6 +48,42 @@ public class Main
 	        }		
 			
 			System.out.println(Cores.TEXT_WHITE_BOLD + "");
+			
+			switch (option)
+			{
+				case 1:
+					keyPress();
+					break;
+				case 2:
+					keyPress();
+					break;
+				case 3:
+					keyPress();
+					break;
+				case 4:
+					keyPress();
+					break;
+				case 5:
+					keyPress();
+					break;
+				case 6:						
+					keyPress();
+					break;
+				case 7:					
+					keyPress();
+					break;
+				case 8:
+					keyPress();
+					break;	
+				case 9:
+					System.out.println("\nBanco do Brazil com Z - O seu Futuro começa aqui!");
+					about();
+					break;
+				default:
+					System.out.println(Cores.TEXT_RED_BOLD + "\nOpção Inválida!");
+					keyPress();
+					break;			
+			}		
 		}while (option != 6);
 		readIn.close();
 	}
