@@ -66,17 +66,8 @@ public class Main
 				case 5:
 					keyPress();
 					break;
-				case 6:						
-					keyPress();
-					break;
-				case 7:					
-					keyPress();
-					break;
-				case 8:
-					keyPress();
-					break;	
-				case 9:
-					System.out.println("\nBanco do Brazil com Z - O seu Futuro começa aqui!");
+				case 6:
+					System.out.println("\nProjeto Final Java!");
 					about();
 					break;
 				default:
