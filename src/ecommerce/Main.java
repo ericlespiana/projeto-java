@@ -1,6 +1,7 @@
 package ecommerce;
 
 import ecommerce.util.*;
+import ecommerce.model.*;
 
 import java.io.IOException;
 import java.util.InputMismatchException;
@@ -14,6 +15,8 @@ public class Main
 		Scanner readIn = new Scanner(System.in);
 		int		option = 0;
 		
+		LivroFisico livro2 = new LivroFisico(1, 35, 25.30f, "Alice no País das maravílhas", "Lewis Carroll", "English", "Dura");
+		LivroDigital livro3 = new LivroDigital(2, 35, 25.30f, "Harry Potter", "J. K. Rowling", "English", "35MB");
 		
 		do
 		{
@@ -23,11 +26,12 @@ public class Main
 			System.out.println("*****************************************************\n");
 			
 			System.out.println("\t 1 - Listar todos os Produtos");
-			System.out.println("\t 2 - Buscar Produto por ID");
+			System.out.println("\t 2 - Buscar Livro por ID");
 			System.out.println("\t 3 - Atualizar Dados do Conta");
-			System.out.println("\t 4 - Cadastrar novo Produto");
-			System.out.println("\t 5 - Deletar Produto");
-			System.out.println("\t 6 - Sair");
+			System.out.println("\t 4 - Cadastrar novo Livro");
+			System.out.println("\t 5 - Deletar Livro");
+			System.out.println("\t 5 - Comprar Livro");
+			System.out.println("\t 7 - Sair");
 			System.out.println("                                                     ");
 			System.out.println("*****************************************************" + Cores.TEXT_RESET);
 			
