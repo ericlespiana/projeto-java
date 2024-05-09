@@ -68,15 +68,15 @@ public abstract class Livro
 	
 	public void visualize()
 	{		
-		System.out.println("\n\n***********************************************************");
-		System.out.println("Dados do Livro:");
+		System.out.println("\n***********************************************************");
+		System.out.println("\t\t\tDados do Livro:");
 		System.out.println("***********************************************************");
 		System.out.println("ID do livro: " + this.id);
 		System.out.println("Nome do livro: " + this.title);
 		System.out.println("Nome do autor: " + this.authorName);
 		System.out.println("Idioma do livro: " + this.language);
 		System.out.println("Total de páginas: " + this.pages);
-		System.out.println("Preço: " + this.price);
+		System.out.println("Preço R$ " + this.price);
 		System.out.println("Formato: " + this.format);
 	}	
 }

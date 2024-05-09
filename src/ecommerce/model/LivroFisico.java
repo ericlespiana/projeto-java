@@ -19,14 +19,6 @@ public class LivroFisico extends Livro
 		this.cover = cover;
 	}
 
-	public void changeCover()
-	{
-		if (this.getCover().equalsIgnoreCase("Dura"))
-			this.setCover("Mole");
-		else
-			this.setCover("Dura");
-	}
-	
 	@Override
 	public void visualize()
 	{		
