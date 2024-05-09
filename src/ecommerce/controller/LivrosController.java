@@ -99,26 +99,5 @@ public class LivrosController implements EcommerceRepository
 		else
 			System.out.println("\nVocê não tem saldo suficiente para comprar esse livro!");
 		return (null);
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	}	
 }

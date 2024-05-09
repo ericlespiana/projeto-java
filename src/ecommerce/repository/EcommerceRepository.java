@@ -11,5 +11,4 @@ public interface EcommerceRepository
 	public void update(Livro book);
 	public void delete(int id);
 	public Livro buy(int id, float value);
-	
 }
